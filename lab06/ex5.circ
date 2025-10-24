@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.8.0-61c.f1d5ac0" version="1.0">
-  This file is intended to be loaded by Logisim-evolution v3.8.0-61c.f1d5ac0(https://github.com/61c-teach/logisim-evolution).
+<project source="3.8.0-61c.966ca7a" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0-61c.966ca7a(https://github.com/61c-teach/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -179,7 +179,6 @@
     </comp>
     <comp lib="0" loc="(210,610)" name="Splitter">
       <a name="appear" val="center"/>
-      <a name="bit0" val="1"/>
       <a name="bit10" val="0"/>
       <a name="bit11" val="0"/>
       <a name="bit12" val="0"/>
@@ -190,7 +189,7 @@
       <a name="bit17" val="0"/>
       <a name="bit18" val="0"/>
       <a name="bit19" val="0"/>
-      <a name="bit2" val="1"/>
+      <a name="bit2" val="0"/>
       <a name="bit20" val="0"/>
       <a name="bit21" val="0"/>
       <a name="bit22" val="0"/>
@@ -237,11 +236,11 @@
     </comp>
     <comp lib="0" loc="(290,560)" name="Tunnel">
       <a name="label" val="ten_rest_zero"/>
-      <a name="width" val="28"/>
+      <a name="width" val="30"/>
     </comp>
     <comp lib="0" loc="(290,610)" name="Tunnel">
       <a name="label" val="bits_ten"/>
-      <a name="width" val="4"/>
+      <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(540,300)" name="Constant">
       <a name="value" val="0x0"/>
@@ -264,12 +263,12 @@
     <comp lib="0" loc="(540,790)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="bits_ten"/>
-      <a name="width" val="4"/>
+      <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(540,870)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="ten_rest_zero"/>
-      <a name="width" val="28"/>
+      <a name="width" val="30"/>
     </comp>
     <comp lib="0" loc="(550,270)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -302,12 +301,12 @@
       <a name="width" val="29"/>
     </comp>
     <comp lib="0" loc="(550,820)" name="Constant">
-      <a name="value" val="0xa"/>
-      <a name="width" val="4"/>
+      <a name="value" val="0x0"/>
+      <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(550,900)" name="Constant">
       <a name="value" val="0x0"/>
-      <a name="width" val="28"/>
+      <a name="width" val="30"/>
     </comp>
     <comp lib="0" loc="(670,280)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -366,10 +365,10 @@
       <a name="width" val="29"/>
     </comp>
     <comp lib="3" loc="(620,800)" name="Comparator">
-      <a name="width" val="4"/>
+      <a name="width" val="2"/>
     </comp>
     <comp lib="3" loc="(620,880)" name="Comparator">
-      <a name="width" val="28"/>
+      <a name="width" val="30"/>
     </comp>
     <wire from="(170,300)" to="(290,300)"/>
     <wire from="(170,400)" to="(210,400)"/>
